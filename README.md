@@ -5,7 +5,7 @@ I have created a record-fetching table using a relational database (MySQL) with 
 Tools I have used
 For the frontend, I used HTML, CSS, and React. For the backend, I developed the application using Spring Tool Suite with the Java programming language. For the database, I used MySQL, a relational database. To test the fetched APIs, I used the Postman API testing tool.
 
-** Tools and Technologies Used:**
+**Tools and Technologies Used:**
 
 Frontend:
 
