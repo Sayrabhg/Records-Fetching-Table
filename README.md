@@ -7,7 +7,7 @@ For the frontend, I used HTML, CSS, and React. For the backend, I developed the 
 
 **Tools and Technologies Used:**
 
-Frontend:
+_**Frontend:**_
 
 HTML
 
@@ -15,16 +15,15 @@ CSS
 
 React
 
-Backend:
+_**Backend:**_
 
 Java
-
 Spring Boot (developed using Spring Tool Suite)
 
-Database:
+_**Database:**_
 
 MySQL (Relational Database)
 
-API Testing:
+_**API Testing:**_
 
 Postman
