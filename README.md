@@ -13,7 +13,7 @@ HTML
 
 CSS
 
-React
+React ( Js Framework )
 
 _**Backend:**_
 
