@@ -1,11 +1,13 @@
-Records Fetching Table
+<h1>Records Fetching Table</h1>
+
 I have created in this repository a record-fetching table using a relational database (MySQL) with a unique record set. Once a record is saved to the database, I created REST APIs using Spring Boot to retrieve the data. These APIs allow me to fetch and display the stored SQL data in a structured table format on the frontend. I am using React for the frontend, which communicates with the Spring Boot backend to consume the APIs and display the data on the UI in a tabular format.
 
-Tools I have used For the frontend, I used HTML, CSS, and React. For the backend, I developed the application using Spring Tool Suite with the Java programming language. For the database, I used MySQL, a relational database. To test the fetched APIs, I used the Postman API testing tool.
+_Tools I have used
+For the frontend, I used HTML, CSS, and React. For the backend, I developed the application using Spring Tool Suite with the Java programming language. For the database, I used MySQL, a relational database. To test the fetched APIs, I used the Postman API testing tool._
 
-Tools and Technologies Used:
+**Tools and Technologies Used:**
 
-Frontend:
+_**Frontend:**_
 
 HTML
 
@@ -13,17 +15,19 @@ CSS
 
 React ( Js Framework )
 
-Backend:
+_**Backend:**_
 
-Java Spring Boot (developed using Spring Tool Suite)
+Java
+Spring Boot (developed using Spring Tool Suite)
 
-Database:
+_**Database:**_
 
 MySQL (Relational Database)
 
-API Testing:
+_**API Testing:**_
 
 Postman
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
