@@ -9,24 +9,24 @@ For the frontend, I used HTML, CSS, and React. For the backend, I developed the 
 
 _**Frontend:**_
 
-HTML
+-HTML
 
-CSS
+-CSS
 
-React ( Js Framework )
+-React ( Js Framework )
 
 _**Backend:**_
 
-Java
-Spring Boot (developed using Spring Tool Suite)
+-Java
+-Spring Boot (developed using Spring Tool Suite)
 
 _**Database:**_
 
-MySQL (Relational Database)
+-MySQL (Relational Database)
 
 _**API Testing:**_
 
-Postman
+-Postman
 
 # React + Vite
 
