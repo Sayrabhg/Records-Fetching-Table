@@ -7,6 +7,7 @@ import Posts from './components/Posts';
 import Comments from './components/Comments';
 import Todos from './components/Todos';
 import './assets/Css/all.css'
+import img from '../public/ToDoListAppLogo.png'
 
 function App() {
   return (
@@ -27,29 +28,38 @@ function App() {
 
 export default App;
 
-export function Index(){
+export function Index() {
 
   let indexsection = {
-    width:'100%',
-    height:'100vh',
-    alignContent:'center',
-    justifyContent:'center',
-    display:'grid'
+    width: '100%',
+    height: '100vh',
+    alignContent: 'center',
+    justifyContent: 'center',
+    display: 'grid'
+  }
+
+  const data = {
+    img: img,
+    imgH: '300px',
+    h1: 'Hello User,',
+    h2: 'Welcome to my Database Table Dashbboard...',
+    note: ' The requirements include fetching data using a Spring Boot API connected to a MySQL database, and displaying the fetched MySQL data on a React web page using the Spring API.'
   }
 
   return <>
-  <section id='Index' style={indexsection}>
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12 col-12">
-          <div>
-            <h1 className='py-2' style={{fontWeight:'bold'}}>Hello User,</h1>
-            <h2 className='py-2'>Welcome to my Database Table Dashbboard...</h2>
-            <p style={{width:'44rem',display:'grid',gridTemplateColumns:'max-content 1fr'}}><span><span className='text-danger'>Note</span> :-</span> The requirements include fetching data using a Spring Boot API connected to a MySQL database, and displaying the fetched MySQL data on a React web page using the Spring API.</p>
+    <section id='Index' style={indexsection}>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 col-12">
+            <div>
+              <img src={data.img} alt={data.img} style={{ height: data.imgH }} />
+              <h1 className='py-2' style={{ fontWeight: 'bold' }}>{data.h1}</h1>
+              <h2 className='py-2'>{data.h2}</h2>
+              <p style={{ width: '44rem', display: 'grid', gridTemplateColumns: 'max-content 1fr' }}><span><span className='text-danger'>Note</span> :-</span>{data.note}</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   </>
 }
